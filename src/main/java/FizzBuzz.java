@@ -1,5 +1,5 @@
 public class FizzBuzz {
-    public String of(int i) {
-        return "0";
+    public String of(int n) {
+        return String.valueOf(n);
     }
 }
