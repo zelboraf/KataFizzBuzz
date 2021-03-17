@@ -28,4 +28,10 @@ public class FizzBuzzTest {
         String result = fizzBuzz.of(2);
         assertThat(result).isEqualTo("2");
     }
+
+    @Test
+    public void shouldReturnFizzWhenThreeProvided() {
+        String result = fizzBuzz.of(3);
+        assertThat(result).isEqualTo("fizz");
+    }
 }
