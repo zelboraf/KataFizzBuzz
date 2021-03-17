@@ -3,12 +3,13 @@ public class FizzBuzz {
         if (n == 0) {
             return "0";
         }
+        String result = "";
         if (n % 3 == 0) {
-            return "fizz";
+            result += "fizz";
         }
         if (n % 5 == 0) {
-            return "buzz";
+            result += "buzz";
         }
-        return String.valueOf(n);
+        return result.equals("") ? String.valueOf(n) : result;
     }
 }
