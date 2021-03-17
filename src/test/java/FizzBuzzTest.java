@@ -22,4 +22,10 @@ public class FizzBuzzTest {
         String result = fizzBuzz.of(1);
         assertThat(result).isEqualTo("1");
     }
+
+    @Test
+    public void shouldReturnTwoWhenTwoProvided() {
+        String result = fizzBuzz.of(2);
+        assertThat(result).isEqualTo("2");
+    }
 }
